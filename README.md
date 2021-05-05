@@ -20,4 +20,8 @@
 <div>
  
  CONTENT!
+ 
+ <?php
+      echo "<div>test</div>";
+ ?>
   
