@@ -1,4 +1,5 @@
 </div>
+</code>
 
 <script>
   var directory = "../";
@@ -8,17 +9,15 @@
   var ret = xmlHttp.responseText;
   var fileList = ret.split('\n');
   
-  console.log(fileList);
+  //console.log(fileList);
   
   for (i = 0; i < fileList.length; i++) {
-       console.log(i);
-                                  
-      var fileinfo = fileList[i].split(' ');
-      //document.write(fileinfo[1] + "<br>");
+       document.write("<div>" + i + "</div><br/>");
+
   }
 </script> 
 
 <div>
-
+ 
  CONTENT!
   
