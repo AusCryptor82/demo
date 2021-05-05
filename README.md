@@ -5,9 +5,13 @@
   xmlHttp.send(null);
   var ret = xmlHttp.responseText;
   var fileList = ret.split('\n');
+  
+  console.log(fileList);
+  
   for (i = 0; i < fileList.length; i++) {
-       alert(i);                           
-      //var fileinfo = fileList[i].split(' ');
+       console.log(i);
+                                  
+      var fileinfo = fileList[i].split(' ');
       //document.write(fileinfo[1] + "<br>");
   }
 </script>                                
