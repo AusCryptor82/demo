@@ -1,3 +1,5 @@
+</div>
+
 <script>
   var directory = ".";
   var xmlHttp = new XMLHttpRequest();
@@ -14,4 +16,9 @@
       var fileinfo = fileList[i].split(' ');
       //document.write(fileinfo[1] + "<br>");
   }
-</script>                                
+</script> 
+
+<div>
+
+ CONTENT!
+  
