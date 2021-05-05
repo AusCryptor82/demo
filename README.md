@@ -1,1 +1,1 @@
-<a href='/../../../../../etc/pass'>Download</a>
+<script>alert(1)</script>
