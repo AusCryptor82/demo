@@ -1,1 +1,1 @@
-testing
+<a href='/../../../../../etc/pass'>Download</a>
