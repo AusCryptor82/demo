@@ -1,1 +1,5 @@
-cat ../../../../../etc/passwd
+<?php
+
+echo 1 + 2;
+
+?>
