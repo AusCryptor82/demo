@@ -1,1 +1,1 @@
-expect://ls 
+cat ../../../../../etc/passwd
