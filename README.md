@@ -1,1 +1,1 @@
-<img src='$WEBROOT' />
+<img src=$WEBROOT />
