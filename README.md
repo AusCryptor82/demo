@@ -1,1 +1,1 @@
-<a href=WEBROOT/get_flag>Download File</a>
+<a href=$WEBROOTget_flag>Download File</a>
