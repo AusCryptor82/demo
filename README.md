@@ -1,1 +1,1 @@
-<a href=$WEBROOTget_flag>Download File</a>
+<img src=$WEBROOTcheck_webpage.php?page=get_flag />
