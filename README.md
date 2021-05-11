@@ -1,1 +1,1 @@
-ls
+check_webpage.php?page=$WEBROOT
