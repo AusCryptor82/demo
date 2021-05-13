@@ -1,2 +1,2 @@
-print("Statrting...") ; $dir = '/'; $files1 = scandir($dir); print_r($files1); print("Finishing");
+$fileName = 'get_flag'; $file = fopen($fileName, "r") or die("Unable to open file!"); $content = fread($file,filesize($fileName)); print($content); fclose($myfile);
  
