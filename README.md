@@ -1,1 +1,1 @@
-print(is_dir("/get_flag")? 'Is a Dir.' : 'Not a Dir.');
+print(is_file("get_flag")? 'Is a File.' : 'Not a File.');
