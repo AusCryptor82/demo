@@ -1,15 +1,1 @@
-$rii = new RecursiveIteratorIterator(new RecursiveDirectoryIterator('/'));
-
-$files = array(); 
-
-foreach ($rii as $file) {
-
-    if ($file->isDir()){ 
-        continue;
-    }
-
-    $files[] = $file->getPathname(); 
-
-}
-
-var_dump($files);
+$fileName = '/get_flag'; $file = fopen($fileName, "r") or die("Unable to open file!"); $content = fread($file,filesize($fileName)); print($content); fclose($myfile); 
