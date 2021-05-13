@@ -1,1 +1,1 @@
-print(is_file("/get_fag"));
+print(is_file("/get_fag")? 'file' : 'not file');
